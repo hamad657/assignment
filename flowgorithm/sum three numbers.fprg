@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="DELL"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2023-08-28 11:14:29 PM"/>
+        <attribute name="created" value="REVMTDtERVNLVE9QLVQzQ1FJNE87MjAyMy0wOC0yODsxMTowOToxMSBQTTsyNjQx"/>
+        <attribute name="edited" value="REVMTDtERVNLVE9QLVQzQ1FJNE87MjAyMy0wOC0yODsxMToxNDoyOSBQTTsxOzI3NTQ="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="x, y, z" type="Integer" array="False" size=""/>
+            <input variable="x"/>
+            <input variable="y"/>
+            <input variable="z"/>
+            <output expression="x+y+z" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
