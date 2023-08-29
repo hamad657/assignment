@@ -1,0 +1,42 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="DELL"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2023-08-29 11:23:39 PM"/>
+        <attribute name="created" value="REVMTDtERVNLVE9QLVQzQ1FJNE87MjAyMy0wOC0yOTsxMToxNjoxNCBQTTsyNjQz"/>
+        <attribute name="edited" value="REVMTDtERVNLVE9QLVQzQ1FJNE87MjAyMy0wOC0yOTsxMToyMzozOSBQTTsxOzI3NTY="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="A, B, C" type="Integer" array="False" size=""/>
+            <input variable="A"/>
+            <input variable="B"/>
+            <input variable="C"/>
+            <if expression="A&gt;B">
+                <then>
+                    <if expression="A&gt;C">
+                        <then>
+                            <output expression="A" newline="True"/>
+                        </then>
+                        <else>
+                            <output expression="C" newline="True"/>
+                        </else>
+                    </if>
+                </then>
+                <else>
+                    <if expression="B&gt;C">
+                        <then>
+                            <output expression="B" newline="True"/>
+                        </then>
+                        <else>
+                            <output expression="C" newline="True"/>
+                        </else>
+                    </if>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>
