@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="DELL"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2023-08-29 11:43:47 PM"/>
+        <attribute name="created" value="REVMTDtERVNLVE9QLVQzQ1FJNE87MjAyMy0wOC0yOTsxMTo0MDoxNiBQTTsyNjQy"/>
+        <attribute name="edited" value="REVMTDtERVNLVE9QLVQzQ1FJNE87MjAyMy0wOC0yOTsxMTo0Mzo0NyBQTTsxOzI3NTc="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="x, y, sum, average" type="Integer" array="False" size=""/>
+            <input variable="x"/>
+            <input variable="y"/>
+            <assign variable="sum" expression="x+y"/>
+            <assign variable="average" expression="sum/2"/>
+            <output expression="average" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
