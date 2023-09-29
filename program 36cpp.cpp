@@ -6,11 +6,12 @@ int main()
     int n;
     cout<<"enter the num" "\n";
     cin>>n;
-    while(c<=n){
-                p=p*c;
-                c++;
-                }
-                cout<<"fact of n" <<p<< "\n";
+    do{
+        fact=fact*c;
+        c++;
+    }
+        while(c<=n);
+           cout<<"fact of num"<<fact<< "\n";
                 return 0;
    }
                 
