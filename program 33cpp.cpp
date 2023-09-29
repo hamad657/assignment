@@ -9,7 +9,7 @@ int main ()
     cin>>e;
     do{
            if(n%2!=0)
-           cout<<"n" "\n";
+           cout<<n<< "\n";
            n++;
            }
            while(n<=e);
